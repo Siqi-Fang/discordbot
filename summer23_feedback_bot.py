@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands, tasks
 from discord.utils import get
-import logging
 from datetime import datetime, timedelta
 from asgiref.sync import sync_to_async
 import pytz

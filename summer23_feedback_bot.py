@@ -102,9 +102,10 @@ async def get_summer_group_data():
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-bot = commands.Bot(command_prefix='/', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.command(name='groupreport')
+@commands.has_role('AI Camp Avengers')
 async def get_summer_group_report(ctx):
     embed = discord.Embed()
 
@@ -120,6 +121,7 @@ async def get_summer_group_report(ctx):
 
 
 @bot.command(name='overallreport')
+@commands.has_role('AI Camp Avengers')
 async def get_summer_overall_report(ctx):
     embed = discord.Embed()
 
@@ -141,7 +143,7 @@ async def auto_summer_group_report():
     date_utc = datetime.now(tz=pytz.UTC)
     date_pst = date_utc.astimezone(pytz.timezone('US/Pacific'))
 
-    if date_pst.hour == 14: # CHANGE BACK TO 16 TO RE-ENABLE
+    if date_pst.hour == 16: # CHANGE BACK TO 16 TO RE-ENABLE
 
         embed = discord.Embed()
 
@@ -166,7 +168,7 @@ async def auto_summer_overall_report():
     date_utc = datetime.now(tz=pytz.UTC)
     date_pst = date_utc.astimezone(pytz.timezone('US/Pacific'))
 
-    if date_pst.hour == 14: # CHANGE BACK TO 16 TO RE-ENABLE
+    if date_pst.hour == 16: # CHANGE BACK TO 16 TO RE-ENABLE
 
         embed = discord.Embed()
 

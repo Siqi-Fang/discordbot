@@ -3,8 +3,8 @@ import logging
 import pandas as pd
 import os
 
-EMAIL = os.environ("EMAIL")
-PASSWORD = os.environ("PASSWORD")
+EMAIL = os.environ["EMAIL"]
+PASSWORD = os.environ["PASSWORD"]
 
 NAME_2_TRACK = {
     "pixel-penguins": "One Week DS (EST)",

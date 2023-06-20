@@ -4,4 +4,3 @@ pandas==1.3.4
 asgiref
 pytz
 requests
-logging

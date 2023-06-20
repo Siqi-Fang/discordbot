@@ -1,13 +1,10 @@
 import requests
 import logging
 import pandas as pd
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
-
-EMAIL = os.getenv("EMAIL")
-PASSWORD = os.getenv("PASSWORD")
+EMAIL = os.environ("EMAIL")
+PASSWORD = os.environ("PASSWORD")
 
 NAME_2_TRACK = {
     "pixel-penguins": "One Week DS (EST)",

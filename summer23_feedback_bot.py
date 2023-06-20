@@ -189,4 +189,4 @@ async def on_ready():
     auto_summer_group_report.start()
     auto_summer_overall_report.start()
 
-bot.run(os.getenv("TOKEN"))
+bot.run(os.environ("TOKEN"))

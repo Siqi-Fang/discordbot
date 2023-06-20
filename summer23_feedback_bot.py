@@ -105,7 +105,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.command(name='groupreport')
-@commands.has_role('AI Camp Avengers')
+# @commands.has_any_role(['AI Camp Avengers'])
 async def get_summer_group_report(ctx):
     embed = discord.Embed()
 
@@ -121,7 +121,7 @@ async def get_summer_group_report(ctx):
 
 
 @bot.command(name='overallreport')
-@commands.has_role('AI Camp Avengers')
+# @commands.has_any_role(['AI Camp Avengers'])
 async def get_summer_overall_report(ctx):
     embed = discord.Embed()
 

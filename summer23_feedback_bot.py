@@ -73,6 +73,15 @@ async def get_summer_overall_data():
     low_message = str(today_low) + '\nChange Since Yesterday: ' + \
         str(low_percent_change) + '%'
     daily_data['Today\'s Percentage of 7 or Less Reviews'] = low_message
+    
+    # low rating groups
+    low_rating_groups_message = ""
+    low_rating_groups = df_today[df_today['rating'] <= 7]['name'].unique()
+    for group in low_rating_groups:
+        low_rating_groups_message += '\n' + group
+            
+    low_rating_groups_message += '\nIf you see your group in this list, [view feedback here](https://siqi-fang-summer23-studentfeedback-streamlit-app-3tf2ue.streamlit.app/)'
+    daily_data['Groups With a Review of 7 or Less'] = low_rating_groups_message
 
     return daily_data
 

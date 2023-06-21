@@ -127,7 +127,7 @@ async def get_summer_overall_report(ctx):
 
     data = await get_summer_overall_data()
 
-    embed.title = 'Summer Group Ratings Report'
+    embed.title = 'Summer Overall Ratings Report'
     embed.color = discord.Color.green()
 
     for key, value in data.items():
@@ -143,7 +143,7 @@ async def auto_summer_group_report():
     date_utc = datetime.now(tz=pytz.UTC)
     date_pst = date_utc.astimezone(pytz.timezone('US/Pacific'))
 
-    if date_pst.hour == 11: # CHANGE BACK TO 16 TO RE-ENABLE
+    if date_pst.hour == 10: # CHANGE BACK TO 16 TO RE-ENABLE
 
         embed = discord.Embed()
 
@@ -168,7 +168,7 @@ async def auto_summer_overall_report():
     date_utc = datetime.now(tz=pytz.UTC)
     date_pst = date_utc.astimezone(pytz.timezone('US/Pacific'))
 
-    if date_pst.hour == 11: # CHANGE BACK TO 16 TO RE-ENABLE
+    if date_pst.hour == 10: # CHANGE BACK TO 16 TO RE-ENABLE
 
         embed = discord.Embed()
 

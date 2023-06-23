@@ -63,7 +63,7 @@ TRACKS = ["One Week DS (EST)",
           "3-Week CV (EST)",
           "3-Week CV (PST)",
           "3-Week NLP (EST)",
-          "3-Week DS (PST)",
+          "3-Week NLP (PST)",
           ]
 
 class MetabaseService:

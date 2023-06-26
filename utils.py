@@ -48,10 +48,20 @@ NAME_2_TRACK = {
     "kilobit-koalas": "3-Week DS (PST)",
     "radiant-ravens": "3-Week DS (PST)",
     "fractal-firebirds": "3-Week DS (PST)",
+
     "agile-antelopes": "One Week DS (EST)",
     "brawny-beavers": "One Week DS (EST)",
     "crimson-crocodiles": "One Week GameDev (EST)", 
     "dynamic-dolphins": "One Week DS (PST)",
+
+    "majestic-meerkats": "One Week GameDev (PST)",
+    "whimsical-wolves": "One Week DS (PST)",
+    "zesty-zebras": "One Week DS (PST)",
+    "bubbly-butterflies": "One Week GameDev (EST)",
+    "vivacious-vultures": "One Week DS (EST)",
+    "whirlwind-walruses": "One Week GameDev (EST)",
+    "stellar-stingrays": "One Week DS (EST)",
+
 }
 
 TRACKS = ["One Week DS (EST)",

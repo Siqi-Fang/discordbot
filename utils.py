@@ -62,6 +62,47 @@ NAME_2_TRACK = {
     "whirlwind-walruses": "One Week GameDev (EST)",
     "stellar-stingrays": "One Week DS (EST)",
 
+    # BATCH B
+    "crazy-centipedes": "One Week DS (EST)",
+
+    "resilient-raccoons": "3-Week DS (EST)",
+    "humble-hedgehogs": "3-Week DS (EST)",
+    "openminded-octopuses": "3-Week DS (EST)",
+
+    "passionate-pigeons": "3-Week DS (PST)",
+    "wandering-woodpeckers": "3-Week DS (PST)",
+    "dynamic-dalmatians": "3-Week DS (PST)",
+    "intelligent-irukandji": "3-Week DS (PST)",
+    "witty-wombats": "3-Week DS (PST)",
+    "quirky-quesadillas": "3-Week DS (PST)",
+
+    "fabulous-flamingos": "3-Week NLP (EST)",
+    "jolly-jackrabbits": "3-Week NLP (EST)",
+    "lovely-llamas": "3-Week NLP (EST)",
+    "peaceful-pandas": "3-Week NLP (EST)",
+    "sensible-seahorses":"3-Week NLP (EST)",
+    "harmonic-hawks": "3-Week NLP (EST)",
+    "joyous-jackals": "3-Week NLP (EST)",
+    "noteworthy-nuthatches": "3-Week NLP (EST)",
+
+    "sincere-swallows": "3-Week NLP (PST)",
+    "mystical-manatees": "3-Week NLP (PST)",
+    "gentle-giraffes": "3-Week NLP (PST)",
+    "fabulous-fajitas": "3-Week NLP (PST)",
+    "proud-porcupines":"3-Week NLP (PST)",
+
+    "gleeful-geese": "3-Week CV (EST)",
+    "merry-mockingbirds": "3-Week CV (EST)",
+    "cheerful-cheetahs": "3-Week CV (EST)",
+    "ambitious-aardvarks": "3-Week CV (EST)",
+    "dapper-dingoes": "3-Week CV (EST)",
+
+    "feist-finches": "3-Week CV (PST)",
+    "lovable-lobsters": "3-Week CV (PST)",
+    "curious-caterpillars": "3-Week CV (PST)",
+    "brilliant-butterflies": "3-Week CV (PST)",
+    "radiant-roadrunners": "3-Week CV (PST)",
+
 }
 
 TRACKS = ["One Week DS (EST)",

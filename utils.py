@@ -122,7 +122,51 @@ TRACKS = ["One Week DS (EST)",
           "3-Week NLP (EST)",
           "3-Week NLP (PST)",
           ]
+CURRENT_CLASSES = [
+    "resilient-raccoons",
+    "humble-hedgehogs",
+    "openminded-octopuses",
 
+    "passionate-pigeons",
+    "wandering-woodpeckers",
+    "dynamic-dalmatians",
+    "intelligent-irukandji",
+    "witty-wombats",
+    "quirky-quesadillas",
+
+    "fabulous-flamingos",
+    "jolly-jackrabbits",
+    "lovely-llamas",
+    "peaceful-pandas",
+    "sensible-seahorses",
+    "harmonic-hawks",
+    "joyous-jackals",
+    "noteworthy-nuthatches",
+
+    "sincere-swallows",
+    "mystical-manatees",
+    "gentle-giraffes",
+    "fabulous-fajitas",
+    "proud-porcupines",
+
+    "gleeful-geese",
+    "merry-mockingbirds",
+    "cheerful-cheetahs",
+    "ambitious-aardvarks",
+    "dapper-dingoes",
+
+    "feist-finches",
+    "lovable-lobsters",
+    "curious-caterpillars",
+    "brilliant-butterflies",
+    "radiant-roadrunners",
+    "unforgettable-udon",
+    "magnificent-macaroons",
+    "daring-dumplings",
+    "happy-hamburgers",
+    "bountiful-bagels",
+    "toasty-tangerine",
+]
 class MetabaseService:
     '''
     Generic Metabase service class

@@ -4,9 +4,10 @@ from discord.utils import get
 from datetime import datetime, timedelta
 from asgiref.sync import sync_to_async
 import pytz
-from utils import MetabaseService, NAME_2_TRACK, TRACKS
+from utils import MetabaseService, NAME_2_TRACK, TRACKS, CURRENT_CLASSES
 import pandas as pd
 import os
+
 
 @sync_to_async
 def metabase():
@@ -82,6 +83,14 @@ async def get_summer_overall_data():
             
     low_rating_groups_message += '\nIf you see your group in this list, [view feedback here](https://siqi-fang-summer23-studentfeedback-streamlit-app-3tf2ue.streamlit.app/)'
     daily_data['Groups With a Review of 7 or Less'] = low_rating_groups_message
+
+    rating_count_by_class = df_today.groupby('name')['rating'].count()
+    missing_feedback_msg = ""
+    for clas in CURRENT_CLASSES:
+        if clas not in rating_count_by_class or rating_count_by_class[clas] < 2:
+            missing_feedback_msg += '\n' + clas
+    missing_feedback_msg += '\nPlease reminder your students to leave their feedback!'
+    daily_data['Groups with < 2 Reviews'] = missing_feedback_msg
 
     return daily_data
 

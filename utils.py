@@ -122,7 +122,7 @@ CURRENT_CLASSES = [
 
     "passionate-pigeons",
     "wandering-woodpeckers",
-    "dynamic-dalmatians",
+    "dynamic-dalmations",
     "intelligent-irukandji",
     "witty-wombats",
     "quirky-quesadillas",

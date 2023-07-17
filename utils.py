@@ -7,7 +7,7 @@ EMAIL = os.environ["EMAIL"]
 PASSWORD = os.environ["PASSWORD"]
 
 NAME_2_TRACK = {
-    "pixel-penguins": "One Week DS (EST)",
+ "pixel-penguins": "One Week DS (EST)",
     "algorithmic-armadillos": "One Week DS (PST)",
     "cyborg-cheetahs": "One Week GameDev (PST)",
     "galactic-goblins": "3-Week NLP (EST)",
@@ -61,8 +61,7 @@ NAME_2_TRACK = {
     "vivacious-vultures": "One Week DS (EST)",
     "whirlwind-walruses": "One Week GameDev (EST)",
     "stellar-stingrays": "One Week DS (EST)",
-
-    # BATCH B
+# BATCH B
     "crazy-centipedes": "One Week DS (EST)",
 
     "resilient-raccoons": "3-Week DS (EST)",
@@ -102,26 +101,20 @@ NAME_2_TRACK = {
     "curious-caterpillars": "3-Week CV (PST)",
     "brilliant-butterflies": "3-Week CV (PST)",
     "radiant-roadrunners": "3-Week CV (PST)",
-
+    #B2
     "unforgettable-udon": "One Week DS (EST)",
     "magnificent-macaroons": "One Week DS (EST)",
     "daring-dumplings":"One Week DS (EST)",
     "happy-hamburgers": "One Week DS (PST)",
     "bountiful-bagels": "One Week DS (PST)",
     "toasty-tangerine":"One Week DS (PST)",
+    # B3
+    "hungry-hashbrowns": "One Week DS (EST)",
+    "jolly-jalapenos": "One Week GameDev (EST)",
+    "whimsical-watermelons": "One Week DS (PST)",
+    "giggly-gummybears": "One Week GameDev (EST)",
 }
 
-TRACKS = ["One Week DS (EST)",
-          "One Week DS (PST)",
-          "One Week GameDev (EST)",
-          "One Week GameDev (PST)",
-          "3-Week DS (EST)",
-          "3-Week DS (PST)",
-          "3-Week CV (EST)",
-          "3-Week CV (PST)",
-          "3-Week NLP (EST)",
-          "3-Week NLP (PST)",
-          ]
 CURRENT_CLASSES = [
     "resilient-raccoons",
     "humble-hedgehogs",
@@ -160,13 +153,13 @@ CURRENT_CLASSES = [
     "curious-caterpillars",
     "brilliant-butterflies",
     "radiant-roadrunners",
-    "unforgettable-udon",
-    "magnificent-macaroons",
-    "daring-dumplings",
-    "happy-hamburgers",
-    "bountiful-bagels",
-    "toasty-tangerine",
+    #b3
+    "hungry-hashbrowns",
+    "jolly-jalapenos",
+    "whimsical-watermelons",
+    "giggly-gummybears",
 ]
+
 class MetabaseService:
     '''
     Generic Metabase service class

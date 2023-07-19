@@ -114,7 +114,17 @@ NAME_2_TRACK = {
     "whimsical-watermelons": "One Week DS (PST)",
     "giggly-gummybears": "One Week GameDev (EST)",
 }
-
+TRACKS = ["One Week DS (EST)",
+          "One Week DS (PST)",
+          "One Week GameDev (EST)",
+          "One Week GameDev (PST)",
+          "3-Week DS (EST)",
+          "3-Week DS (PST)",
+          "3-Week CV (EST)",
+          "3-Week CV (PST)",
+          "3-Week NLP (EST)",
+          "3-Week NLP (PST)",
+          ]
 CURRENT_CLASSES = [
     "resilient-raccoons",
     "humble-hedgehogs",

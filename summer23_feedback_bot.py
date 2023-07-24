@@ -30,6 +30,7 @@ async def get_summer_overall_data():
     today = await sync_to_async(mb.retrieve)(638)
     yesterday = await sync_to_async(mb.retrieve)(643)
     df_class_student = await sync_to_async(mb.retrieve)(640)
+    
 
     df_today = pd.merge(today, df_class_student,
                   on='discordId', how='inner')

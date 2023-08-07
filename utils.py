@@ -16,6 +16,8 @@ TRACKS = ["One Week DS (EST)",
           "3-Week CV (PST)",
           "3-Week NLP (EST)",
           "3-Week NLP (PST)",
+          "Expert Course (EST)",
+          "Expert Course (PST)",
           ]
 NAME_2_TRACK = {
  "pixel-penguins": "One Week DS (EST)",
@@ -160,6 +162,9 @@ NAME_2_TRACK = {
     'charming-cheesecakes': "One Week DS (EST)",
     'popping-pistachios': "One Week DS (PST)",
     'glittering-gingerbreads': "One Week GameDev (PST)",
+    'radiant-raspberries': "One Week DS (EST)",
+    'playful-pretzels':"One Week GameDev (PST)",
+    'jovial-jujubes': "One Week DS (PST)",
 }
 
 CURRENT_CLASSES = [
@@ -194,6 +199,9 @@ CURRENT_CLASSES = [
     'tasty-tacos',
     'bold-badgers',
     'energetic-emus',
+    'radiant-raspberries',
+    'playful-pretzels',
+    'jovial-jujubes',
 ]
 
 

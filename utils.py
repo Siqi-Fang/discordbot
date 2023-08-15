@@ -8,16 +8,9 @@ PASSWORD = os.environ["PASSWORD"]
 
 TRACKS = ["One Week DS (EST)",
           "One Week DS (PST)",
-          "One Week GameDev (EST)",
-          "One Week GameDev (PST)",
-          "3-Week DS (EST)",
-          "3-Week DS (PST)",
           "3-Week CV (EST)",
-          "3-Week CV (PST)",
           "3-Week NLP (EST)",
           "3-Week NLP (PST)",
-          "Expert Course (EST)",
-          "Expert Course (PST)",
           ]
 NAME_2_TRACK = {
  "pixel-penguins": "One Week DS (EST)",

@@ -169,7 +169,7 @@ NAME_2_TRACK = {
     "enchanting-espressos": "3-Week NLP (PST)",
     "captivating-cupcakes": "3-Week NLP (PST)",
     "cozy-coconuts": "One Week DS (EST)",
-    "tranquil-tiramisus": "One Week DS (EST)",
+    "tranquil-tiramisus": "One Week DS (PST)",
     
 }
 

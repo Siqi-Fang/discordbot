@@ -156,6 +156,7 @@ NAME_2_TRACK = {
     'popping-pistachios': "One Week DS (PST)",
     'glittering-gingerbreads': "One Week GameDev (PST)",
     'radiant-raspberries': "One Week DS (EST)",
+
     'playful-pretzels':"One Week GameDev (PST)",
     'jovial-jujubes': "One Week DS (PST)",
     # D
@@ -184,7 +185,7 @@ CURRENT_CLASSES = [
     "captivating-cupcakes",
     # D1
     "cozy-coconuts",
-    "tranquil-tirmisus",
+    "tranquil-tiramisus",
 ]
 
 

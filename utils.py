@@ -184,7 +184,7 @@ CURRENT_CLASSES = [
     "enchanting-espressos",
     "captivating-cupcakes",
     # D1
-    "whimsical-wonton"，
+    "whimsical-wonton",
     "fancy-fondue"
 ]
 

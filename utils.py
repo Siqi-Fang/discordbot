@@ -168,7 +168,8 @@ NAME_2_TRACK = {
     "blissful-blueberries": "3-Week NLP (PST)",
     "enchanting-espressos": "3-Week NLP (PST)",
     "captivating-cupcakes": "3-Week NLP (PST)",
-    "fuzz-fries": "One Week DS (EST)",
+    "whimsical-wonton": "One Week DS (EST)",
+    "fancy-fondue":"One Week DS (PST)"
     
 }
 
@@ -183,7 +184,8 @@ CURRENT_CLASSES = [
     "enchanting-espressos",
     "captivating-cupcakes",
     # D1
-    "fuzz-fries"
+    "whimsical-wonton"，
+    "fancy-fondue"
 ]
 
 
